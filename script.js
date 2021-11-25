@@ -3,12 +3,12 @@ let b = 1003;
 
 
 nextPrime:
-for (let i = 2; i <= b; i++) { // Для всех i...
+for (let o = 2; o <= b; o++) { // Для всех i...
 
-  for (let j = 2; j < i; j++) { // проверить, делится ли число..
-    if (i % j === 0) continue nextPrime; // не подходит, берём следующее
+  for (let k = 2; k < o; k++) { // проверить, делится ли число..
+    if (o % k === 0) continue nextPrime; // не подходит, берём следующее
   }
 
-  console.log( i ); // простое число
+  console.log( o ); // простое число
 }
 console.log('Конец' + ' мультфильма')
