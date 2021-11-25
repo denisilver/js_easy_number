@@ -1,5 +1,5 @@
 
-let b = 167;
+let b = 1003;
 
 
 nextPrime:
